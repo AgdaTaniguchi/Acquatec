@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    background: rgb(15, 15, 15);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px solid plum; */
+}
+
+.banner .container{
+    background-color: green;
+}
+
+.header ul{
+    color: orange;
+}
+
+.header ul .aqui{
+    font-weight: bold;
+}
+
+.titulo{
+    color: aqua;
+    /* border: 3px solid darkcyan; */
+    width: fit-content;
+}
+
+.navBar{
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+    /* border: 3px solid olive; */
+}
