@@ -1,2 +1,2 @@
-# Acquatec
-Projeto de HTML e CSS que criamos na faculdade na matéria de Projeto e Inovação.
+# 1CCO-2022
+Site Institucional - Acquatec

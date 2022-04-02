@@ -1,14 +1,15 @@
-body{
+/* Começo do cabeçalho */
+body {
     margin: 0;
     background: black;
     font-family: monospace;
 }
 
 .header{
-    border-bottom: 3px solid aqua;
+    border-bottom: 3px solid #32b9cd;
 }
 
-.container{
+.container {
     width: 80%;
     margin: auto;
     display: flex;
@@ -16,135 +17,159 @@ body{
 
 .header .container{
     justify-content: space-between;
-    /* border: 3px solid plum; */
 }
 
-.header ul a{
-    color: orange;
-    text-decoration: none;
+.header ul #aqui {
+    font-weight: 800;
 }
 
-.header ul .aqui{
-    font-weight: bold;
+ul {
+    color: #e3b062;
 }
 
-.titulo{
-    color: aqua;
-    /* border: 3px solid darkcyan; */
+.titulo {
+    color: #32b9cd;
     width: fit-content;
     font-weight: 500;
 }
 
-.navBar{
-    color: white;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
+.navBar {
     width: 300px;
     padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
-    /* border: 3px solid olive; */
 }
 
 /* Fim do cabeçalho */
 
 /* Começo do Banner */
 
-.banner{
+.banner {
     background-image: url("imgs/bg-jelly-fish-para-home.png");
     height: 500px;
-    color: white;
+    color: #fff;
     display: flex;
 }
 
-.banner .container{
-    justify-content: center;
+.banner .container p span {
+    font-weight: 1000;
+}
+
+.banner .container {
     font-size: 36px;
+    justify-content: center;
 }
 
 .banner .container p{
     width: 30%;
 }
 
-.banner .container p span{
-    font-weight: 1000;
-}
+/* Fim do banner */
 
-/* Fim do Banner */
-
-/* Começo do social */
-
-.social{
+/* Começo d Social */
+.social  {
     background-color: beige;
     display: flex;
-    padding-bottom: 50px;
 }
 
-.social .container .boxes{
+.social .container{
+    justify-content: center;
+}
+
+.box img{
+    width: 170px;
+}
+
+.social .container .boxes {
     display: flex;
-    justify-content: space-around;
 }
 
-.social .container .boxes .box{
-    margin-top: 50px;
+.box {
+    margin: 50px 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.social .container .boxes .box img{
-    width: 170px;
-}
+/* Final do Social */
 
-/* Fim do social */
+/* Começo do Footer */
 
-/* Começo do footer */
-.footer{
-    /* background-color: ba; */
-    height: 80px;
-    color: aqua;
+.footer {
+    background-color: #32b9cd;
+    height: 150px;
+    color: #fff;
     display: flex;
     font-size: 15px;
 }
 
-.footer .container{
+.footer .container {
     justify-content: center;
 }
 
-.banner .container .card{
-    background: beige;
+.footer.bottom{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.banner .container .card {
+    background-color: beige;
     height: 400px;
     width: 400px;
     display: flex;
     flex-direction: column;
     color: palevioletred;
     align-items: center;
-    border-radius: 13px;
+    border-radius: 4px;
 }
 
-.card h1{
+.card h1 {
     font-size: 30px;
 }
 
-.card h4{
-    font-size: 20px;
-    margin-bottom: 10px;
+.card h4 {
+    font-size: 16px;
 }
 
-.card input{
-    border: 2px solid palevioletred;
-    padding: 5px;
-    border-radius: 7px;
+.card input {
+    border: palevioletred solid 2px;
+    padding: 10px;
+    text-align: center;
 }
 
-.card button{
-    color: white;
-    font: 700 20px monospace;
+.card button {
+    width: 100px;
+    height: 50px;
     background-color: palevioletred;
     margin-top: 25px;
-    height: 30px;
-    width: 100px;
-    border: 1px solid #b93762;
-    border-radius: 7px;
+    font: 700 20px monospace;
+    border: 0;
+    border-radius: 4px; 
+    color: #fff;
     cursor: pointer;
+}
+
+/* Página cadastro */
+
+.cadastro{
+    height: fit-content;
+    padding: 50px;
+}
+
+.cadastro .container .card{
+    height: fit-content;
+    padding: 30px;
+}
+
+.cadastro .container .card button{
+    padding: 10px;
+    width: fit-content;
 }
