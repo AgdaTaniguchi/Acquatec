@@ -21,6 +21,11 @@ body {
   justify-content: space-between;
 }
 
+.header .navBar{
+    display: flex;
+    justify-cotent: space-between;
+}
+
 .header a {
   text-decoration: none;
   color: #e3b062;
@@ -31,7 +36,7 @@ body {
 }
 
 .navbar {
-  width: 300px;
+  width: 500px;
   display: flex;
   align-items: center;
   justify-content: space-between;
